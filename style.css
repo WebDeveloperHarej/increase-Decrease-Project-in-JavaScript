@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	background-color: darkblue;
+	height: 300px;
+	width: 300px;
+	margin-left: 500px;
+	align-items: center;
+}
+#counter{
+	padding-top: 50px;
+	padding-left: 130px;
+	color: white;
+	font-size: 50px;
+}
+#plusBtn{
+	margin-top: 50px;
+	margin-left: 60px;
+}
+button{
+	background-color: yellow;
+	font-size: 17px;
+	padding: 5px;
+	border-radius: 10px;
+}
+#minusBtn{
+	margin-left: 10px;
+}
+button:disabled{
+	opacity: 0.5;
+
+	cursor: not-allowed;
+
+}
